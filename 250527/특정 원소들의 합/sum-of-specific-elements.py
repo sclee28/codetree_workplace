@@ -6,9 +6,10 @@ arr_2nd = [
 ans = []
 
 for i in range(4):
-    for j in range(4):
+    for j in range(i):
         ans.append(arr_2nd[i][j])
 
     
     
+
 print(sum(ans))
